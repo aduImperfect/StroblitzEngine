@@ -4,10 +4,16 @@
     <Filter Include="Core">
       <UniqueIdentifier>{9ec6643d-c6d7-40f3-9ba8-533ec7074cd5}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Core\Messaging">
+      <UniqueIdentifier>{6960aa4c-0233-48af-bcd8-1a60a99bc5f7}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Precompiled.h">
       <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Message.h">
+      <Filter>Core\Messaging</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

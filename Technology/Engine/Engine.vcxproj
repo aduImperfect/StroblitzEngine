@@ -116,6 +116,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Message.h" />
     <ClInclude Include="Precompiled.h" />
   </ItemGroup>
   <ItemGroup>
