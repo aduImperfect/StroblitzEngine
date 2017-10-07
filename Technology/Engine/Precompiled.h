@@ -8,19 +8,21 @@
 #pragma once
 
 //Standard Template Libraries
-#include <algorithm>
-#include <chrono>
-#include <iostream>
-#include <fstream>
-#include <list>
-#include <map>
-#include <memory>
-#include <sstream>
-#include <string>
-#include <vector>
-#include <queue>
-#include <unordered_map>
-#include <unordered_set>
+#include <algorithm>			//http://www.cplusplus.com/reference/algorithm/
+#include <chrono>				//http://www.cplusplus.com/reference/chrono/
+#include <iostream>				//http://www.cplusplus.com/reference/iostream/
+#include <fstream>				//http://www.cplusplus.com/reference/fstream/
+#include <sstream>				//http://www.cplusplus.com/reference/sstream/
+#include <memory>				//http://www.cplusplus.com/reference/memory/
+#include <string>				//http://www.cplusplus.com/reference/string/
+#include <list>					//http://www.cplusplus.com/reference/list/
+#include <map>					//http://www.cplusplus.com/reference/map/
+#include <vector>				//http://www.cplusplus.com/reference/vector/
+#include <queue>				//http://www.cplusplus.com/reference/queue/
+#include <unordered_map>		//http://www.cplusplus.com/reference/unordered_map/
+#include <unordered_set>		//http://www.cplusplus.com/reference/unordered_set/
 
-
+//https://www.khronos.org/opengl/wiki/Image_Libraries#SOIL
+//https://github.com/kbranigan/Simple-OpenGL-Image-Library/blob/master/src/SOIL.h
 #include "SOIL.h"
+

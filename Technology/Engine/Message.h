@@ -28,8 +28,9 @@ enum class MsgType
 class Msg
 {
 public:
-	//Constructor
-	Msg(MsgType mType) :mType(mType) {};
+	//http://en.cppreference.com/w/cpp/language/initializer_list
+	//Constructor Msg. Here mType member is being intialized using the member initializer list.
+	Msg(MsgType type) :mType(type) {};
 
 	//Member which stores the type of message.
 	const MsgType mType;

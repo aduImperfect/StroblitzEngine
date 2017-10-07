@@ -7,6 +7,7 @@
 
 #include "Precompiled.h"
 
+//This is where everything starts.
 int main()
 {
 	return 0;
